@@ -1,14 +1,11 @@
 months = []
 
-
-monthname = input("Please enter the name of the month: ")
-
-
 sumelect=0
 sumrent=0
 sumsavings=0
 
 
+monthname = input("Please enter the name of the month: ")
 while monthname!= "stop":
     salary = int(input("Please enter your Salary for this month: "))
     percentagerent= int(input("Please enter the percentage allocated to Rent: "))
@@ -55,3 +52,12 @@ while monthname!= "stop":
 
 
     monthname = input("Please enter the name of the month: ")
+
+
+    
+print (months)
+
+print("The total amount allocated for Savings is: " + str(sumsavings))
+print("The total amount allocated for Rent is: " + str(sumrent))
+print("The total amount allocated for Electricity is: " + str(sumelect))
+
