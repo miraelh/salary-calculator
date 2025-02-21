@@ -38,7 +38,7 @@ while monthname!= "stop":
     print("The amount allocated for Savings for this month is: " + str(savings))
     print("The amount allocated for Electricity for this month is: " + str(electricity))
     print("The total amount spent this month is: " + str(totalamountspent))
- 
+    print("The remainder for this month is: " + str(remainder))
 
 
 
