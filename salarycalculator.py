@@ -59,7 +59,7 @@ while monthname!= "stop":
 
 
     
-print (months)
+# print (months)
 
 print("The total amount allocated for Savings is: " + str(sumsavings))
 print("The total amount allocated for Rent is: " + str(sumrent))
