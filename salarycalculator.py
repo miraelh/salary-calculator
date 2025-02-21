@@ -9,4 +9,9 @@ while monthname!= "stop":
     percentagesavings= int(input("Please enter the percentage allocated to Savings: "))
     percentageelectricity= int(input("Please enter the percentage allocated to Electricity: "))
 
+    savings = percentagesavings * salary / 100
+    rent = percentagerent * salary / 100
+    electricity = percentageelectricity * salary / 100
+
+    
     monthname = input("Please enter the name of the month: ")
