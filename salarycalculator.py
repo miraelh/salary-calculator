@@ -1,9 +1,9 @@
-months = []
+# months = []
 
 sumelect=0
 sumrent=0
 sumsavings=0
-
+sumremainder=0
 
 monthname = input("Please enter the name of the month: ")
 while monthname!= "stop":
@@ -45,6 +45,7 @@ while monthname!= "stop":
     sumelect=sumelect + electricity
     sumrent = sumrent + rent
     sumsavings = sumsavings + savings
+    sumremainder = sumremainder + remainder
 
     action = input("Would you like to enter a an addtional amount for this month? (yes/no) ")
     if action == "yes" :
@@ -63,6 +64,7 @@ while monthname!= "stop":
 print("The total amount allocated for Savings is: " + str(sumsavings))
 print("The total amount allocated for Rent is: " + str(sumrent))
 print("The total amount allocated for Electricity is: " + str(sumelect))
+print("The total remainder is: " + str(sumremainder))
 
 print(f"The estimate yearly Rent based on the month of {currentmonth} is: " + str(rent*12))
 print(f"The estimate yearly Electricity based on the month of {currentmonth} cost is: " + str(electricity*12))
