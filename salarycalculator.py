@@ -17,7 +17,7 @@ while monthname!= "stop":
     electricity = percentageelectricity * salary / 100
 
 
-   
+    '''
     month = {
         "month": monthname,
         "salary": salary,
@@ -27,8 +27,7 @@ while monthname!= "stop":
     }
 
     months.append(month)
-    
-    
+    '''
     
     
     totalamountspent = savings + rent + electricity
@@ -52,7 +51,7 @@ while monthname!= "stop":
     if action == "yes" :
         additionalamount = int(input("Please enter the additional amount: "))
         sumsavings = sumsavings + additionalamount
-        print("This added amount makes up " + str(100*additionalamount/sumsavings) + "%" + "of your total savings so far"  )
+        print("This added amount makes up " + str(100*additionalamount/sumsavings) + "%" + "of your total savings so far")
         print("Your total amount of savings so far this year would thus be " + str(sumsavings))
 
     currentmonth = monthname
