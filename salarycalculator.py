@@ -23,4 +23,14 @@ while monthname!= "stop":
         "amount allocated for electricity": electricity,
     }
 
+    months.append(month)
+    
+    
+    
+    
+    totalamountspent = savings + rent + electricity
+    
+    remainder = salary - totalamountspent
+
+
     monthname = input("Please enter the name of the month: ")
