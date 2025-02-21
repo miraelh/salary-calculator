@@ -13,5 +13,14 @@ while monthname!= "stop":
     rent = percentagerent * salary / 100
     electricity = percentageelectricity * salary / 100
 
-    
+
+   
+    month = {
+        "month": monthname,
+        "salary": salary,
+        "amount allocated for rent": rent,
+        "amount allocated for savings": savings,
+        "amount allocated for electricity": electricity,
+    }
+
     monthname = input("Please enter the name of the month: ")
