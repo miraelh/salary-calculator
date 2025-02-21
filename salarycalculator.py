@@ -49,8 +49,7 @@ while monthname!= "stop":
     sumsavings = sumsavings + savings
 
 
-
-
+    currentmonth = monthname
     monthname = input("Please enter the name of the month: ")
 
 
@@ -61,3 +60,7 @@ print("The total amount allocated for Savings is: " + str(sumsavings))
 print("The total amount allocated for Rent is: " + str(sumrent))
 print("The total amount allocated for Electricity is: " + str(sumelect))
 
+print(f"The estimate yearly Rent based on the month of {currentmonth} is: " + str(rent*12))
+print(f"The estimate yearly Electricity based on the month of {currentmonth} cost is: " + str(electricity*12))
+
+print(f"Fun fact, your salary for the month of {currentmonth} raised to the power of 2 is: " + str(pow(salary,2)))
