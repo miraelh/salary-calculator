@@ -33,4 +33,11 @@ while monthname!= "stop":
     remainder = salary - totalamountspent
 
 
+
+
+    sumelect=sumelect + electricity
+    sumrent = sumrent + rent
+    sumsavings = sumsavings + savings
+
+
     monthname = input("Please enter the name of the month: ")
